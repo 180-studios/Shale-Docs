@@ -13,15 +13,16 @@ The Shale add-on for Blender integrates the review pipeline directly into your m
 
 ## Requirements
 
-- Blender 3.6 or later
+- Blender 4.xxx (Does not work with 5.xx yet)
 - Shale account with an active organization
 
 ## Installation
 
-1. Download the Shale add-on (`.zip`) from the [Shale dashboard](https://shalereview.com)
-2. In Blender, go to Edit → Preferences → Add-ons → Install
-3. Select the downloaded `.zip` and enable the **Shale** add-on
+1. Copy this link https://plugins.shalereview.com/blender/index.json
+2. In Blender, go to Edit → Preferences → Extensions → Install
+    - We've noticed that the extensions window slows down most computers, this is unrelated to Shale and is an issue with Blender. 
+3. Add a remote repository using the + button in the top right
+4. Paste the link above into the remote repository unrelated
+5. The Shale Plugin will now show up in the `N` view 
 
-## Starting a review
-
-Open the Shale panel in the N-panel (press `N` in the viewport), sign in, and click **New Session**.
+For more detailed instructions refer to the [Upload Via Plugin](/03_plugin_upload/overview/)

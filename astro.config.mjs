@@ -37,7 +37,6 @@ export default defineConfig({
 					],
 				},
 				{ label: '3D Assets', autogenerate: { directory: '04_Review/3D_assets' } },
-				{ label: 'Web Portal', autogenerate: { directory: 'web-portal' } },
 				{ label: 'Administration', autogenerate: { directory: 'administration' } },
 				{ label: 'Tips and Tricks', autogenerate: { directory: '04_tips-and-tricks' } },
 				{ label: 'Integrations', autogenerate: { directory: '05_integrations' } },
